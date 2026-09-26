@@ -1,4 +1,5 @@
 # SCHEDULEI_RU_BASE
+ZZTEST_KEY=Тест обновления
 !6 of=!6 из
 'source' object to it's corresponding 'destination'.=исходный объект в соответствующее «место назначения».
 , and=, и
