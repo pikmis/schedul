@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AssemblyName>ScheduleIRussian</AssemblyName>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="ScheduleIUtilities.Source.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="BepInEx.Core"><HintPath>BepInEx\core\BepInEx.Core.dll</HintPath></Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP"><HintPath>BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath></Reference>
+    <Reference Include="0Harmony"><HintPath>BepInEx\core\0Harmony.dll</HintPath></Reference>
+    <Reference Include="Unity.TextMeshPro"><HintPath>BepInEx\interop\Unity.TextMeshPro.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>BepInEx\interop\UnityEngine.CoreModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>BepInEx\interop\UnityEngine.IMGUIModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.InputLegacyModule"><HintPath>BepInEx\interop\UnityEngine.InputLegacyModule.dll</HintPath></Reference>
+    <Reference Include="Unity.InputSystem"><HintPath>BepInEx\interop\Unity.InputSystem.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule"><HintPath>BepInEx\interop\UnityEngine.UnityWebRequestModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.PhysicsModule"><HintPath>BepInEx\interop\UnityEngine.PhysicsModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>BepInEx\interop\UnityEngine.UI.dll</HintPath></Reference>
+    <Reference Include="Il2CppInterop.Runtime"><HintPath>BepInEx\core\Il2CppInterop.Runtime.dll</HintPath></Reference>
+    <Reference Include="Il2Cppmscorlib"><HintPath>BepInEx\interop\Il2Cppmscorlib.dll</HintPath></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>BepInEx\interop\Assembly-CSharp.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>
