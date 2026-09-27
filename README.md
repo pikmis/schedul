@@ -2,7 +2,7 @@
 
 Полный русификатор игры **Schedule I** (Steam): весь интерфейс, диалоги, квесты и подсказки на русском. Переводы **обновляются автоматически** прямо с этого репозитория — правишь `TranslaitBROO.txt`, всем игрокам это подхватывается при следующем запуске игры, никакой пересборки мода не нужно.
 
-📦 **[Скачать релиз (ZIP)](https://github.com/pikmis/schedul/releases/latest)** — в архиве **всё уже внутри**: и мод, и BepInEx (движок модов), и переводы.
+📦 **[Скачать релиз (ZIP)](https://github.com/pikmis/schedulerus/releases/latest)** — в архиве **всё уже внутри**: и мод, и BepInEx (движок модов), и переводы.
 
 ---
 
@@ -82,7 +82,7 @@ Russian translation loaded: ... entries
 | Проблема | Решение |
 |---|---|
 | Текст остался английским | Нажми **F10** — мод просканирует всё и переведёт. Всё ещё по-английски → в `BepInEx\LogOutput.log` должна быть строка `Loading [Schedule I Russian Translation]`. Нет её — распакуй архив заново, точно в папку с `Schedule I.exe`. |
-| В логе `Error loading [Schedule I Russian Translation]` | Скопируй текст ошибки и создай [issue](https://github.com/pikmis/schedul/issues). |
+| В логе `Error loading [Schedule I Russian Translation]` | Скопируй текст ошибки и создай [issue](https://github.com/pikmis/schedulerus/issues). |
 | Игра не запускается | Удали из папки игры `BepInEx`, `dotnet`, `doorstop_config.ini`, `winhttp.dll` — игра вернётся в исходное состояние. Дальше — issue с `BepInEx\LogOutput.log`. |
 | Чёрное окно висит при первом запуске | Норма, генерация служебных файлов: до 3 минут, только при первом запуске. |
 | Часть текста осталась английской | Создай issue с точным текстом этой строки. |
