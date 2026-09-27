@@ -94,3 +94,4 @@ Russian translation loaded: ... entries
 - Исходник мода: `TranslationMod.Source.cs` (патчи `TMP_Text.set_text`/`SetText`, дамперы, авто-обновление), проект: `TranslationMod.csproj` (.NET 6).
 - Сборка: `dotnet build TranslationMod.csproj`, результат → `BepInEx/plugins/ScheduleIRussian.dll`.
 - Непереведённый текст из игры пишется в `Untranslated.txt` рядом с игрой (или через F10) — это очередь на перевод.
+- Лицензия кода: [MIT](./LICENSE). Перевод — фанатский, неофициальный.
